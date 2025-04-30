@@ -5,7 +5,7 @@ class Handbuch:
 class Instrument:
     def __init__(self, name):
         self.name = name
-        self.handbuch = Handbuch(f"Hanbuch für {self.name}")
+        self.handbuch = Handbuch(f"Handbuch für {self.name}")
 
 class Schueler:
     def __init__(self, name):
